@@ -59,6 +59,7 @@ const initialState: EditorState = {
   history: initialHistoryState,
 };
 
+// Reducers
 const editorReducer = (
   state: EditorState = initialState,
   action: EditorActions

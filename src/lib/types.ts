@@ -58,6 +58,7 @@ export type EditorNodeType = {
   data: EditorCanvasCardType;
 };
 
+// passing the data and action in editor provider
 export type EditorNode = EditorNodeType;
 
 export type EditorActions =
