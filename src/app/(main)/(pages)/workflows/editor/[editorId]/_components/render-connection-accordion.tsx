@@ -2,7 +2,7 @@
 import React from "react";
 import ConnectionCard from "@/app/(main)/(pages)/connections/_components/connection-card";
 import { AccordionContent } from "@/components/ui/accordion";
-import MultipleSelector from "@/components/ui/multiple-selector";
+// import MultipleSelector from "@/components/ui/multiple-selector";
 import { Connection } from "@/lib/types";
 import { useNodeConnections } from "@/providers/connections-provider";
 import { EditorState } from "@/providers/editor-provider";
@@ -14,14 +14,15 @@ import {
   CommandInput,
   CommandItem,
 } from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
+// import {
+//   Popover,
+//   PopoverContent,
+//   PopoverTrigger,
+// } from "@/components/ui/popover";
 import { CheckIcon, ChevronsUpDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import MultipleSelector from "@/components/ui/multiple-selector";
 
 const frameworks = [
   {
